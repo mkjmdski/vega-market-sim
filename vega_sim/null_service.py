@@ -807,7 +807,6 @@ class VegaServiceNull(VegaService):
             self.proc.terminate()
         super().stop()
 
-
     @property
     def wallet_url(self) -> str:
         return self._build_url(self.wallet_port)
